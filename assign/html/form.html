@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contact Us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/style.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Dirk Gently's Holistic IT Consultancy Agency</h1>
+
+        <h2><strong>Contact us for a quotation</strong></h2>
+
+        <h3>Our opening hours are Monday-Friday 0:900AM to 17:00PM and Saturday-Sunday 0:900AM to 20:00PM</h3>
+
+        <nav>
+            <ul class="nav-bar">
+                <li class="nav-opts"><a class="button" href="../index.html">Home Page</a></li>
+                <li class="nav-opts"><a class="button" href="../html/text.html">Information</a></li>
+                <li class="nav-opts"><a class="button" href="../html/table.html">Pricings</a></li>
+                <li class="nav-opts"><a class="button" href="../html/form.html">Contact Us</a></li>
+                <li class="nav-opts"><a class="button" href="../html/references.html">References</a></li>
+                <li class="nav-opts"><a class="button" href="../html/validation.html">Validations</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <form>
+        First name:<br>
+        <input type="text" name="firstname" placeholder="Your first name..."><br><br>
+
+        Last name:<br>
+        <input type="text" name="lastname" placeholder="Your last name..."><br><br>
+
+        Telephone number:<br>
+        <input type="tel" name="telephonenumber" placeholder="Your telephone number..."><br><br>
+
+        Email address:<br>
+        <input type="email" name="emailaddress" placeholder="Your email address..."><br><br>
+
+        Select your problem:<br>
+            <select id="pc-problems" name="PC-Problems">
+                <option value="pc-cleaning">PC Cleaning</option>
+                <option value="virus-removal">Virus Removal</option>
+                <option value="parts-replacement">Parts Replacement</option>
+                <option value="pc-refurbishment">PC Refurbishment</option>
+                <option value="pc-upgrading">PC Upgrading</option>
+                <option value="pc-builds">Complete PC Builds</option>
+            </select><br><br>
+
+        Describe your problem:<br>
+        <textarea name="describeyourproblem" rows="15" cols="45"></textarea><br><br>
+
+        Submit:<br>
+        <input type="submit" value="Submit quotation" onclick="alert('Thank you for submitting your quotation, someone will contact you shortly')" onclick="">
+      </form><br>
+
+    <footer>
+        <p>Copyright of Ryan Burnell 2018 © All rights reserved</p>
+    </footer>
+
+</body>
+</html>
