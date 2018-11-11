@@ -12,6 +12,9 @@ body {
 }
 
 .nav-bar {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
   margin: 1px;
   padding: 1px;
   text-align: center;
