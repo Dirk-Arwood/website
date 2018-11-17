@@ -108,3 +108,9 @@ footer:hover {
 .services-home {
   text-decoration: none;
 }
+
+.prices{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
