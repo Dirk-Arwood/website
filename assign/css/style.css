@@ -23,7 +23,7 @@ body {
 }
 
 .nav-opts {
-  display: inline-block;
+  display: flex;
   padding: 10px;
 }
 
