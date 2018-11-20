@@ -103,6 +103,9 @@ footer:hover {
 
 .services {
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .services-home {
