@@ -106,11 +106,18 @@ footer:hover {
   border-radius: 25px;
 }
 
-.services {
+.services-header {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
+}
+
+.services {
   width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: left;
 }
 
 .services-home {
