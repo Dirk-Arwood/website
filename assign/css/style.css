@@ -138,6 +138,10 @@ footer:hover {
   justify-content: left;
 }
 
+.services abbr {
+  text-decoration: none;
+}
+
 .services-home {
   text-decoration: none;
 }
