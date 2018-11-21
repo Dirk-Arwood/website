@@ -43,6 +43,14 @@ body {
   background-color: #C5CCD2;
   color: black;
   border-radius: 0px 35px 0px;
+  border: 1px solid black;
+}
+
+.button:focus {
+  background-color: #C5CCD2;
+  color: black;
+  border-radius: 0px 35px 0px;
+  border: 1px solid black;
 }
 
 form {
