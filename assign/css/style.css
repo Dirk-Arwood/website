@@ -72,6 +72,11 @@ input[type=submit]:hover {
   background-color: #0DFFE6;
 }
 
+input[type=text]:focus, input[type=tel]:focus, input[type=email]:focus {
+  background-color: lightblue;
+  border: 3px solid black;
+  border-radius: 15px;
+}
 
 select {
   width: 50%;
@@ -84,6 +89,11 @@ select {
 textarea {
   resize: none;
   border: 1px solid black;
+}
+
+textarea:focus {
+  border-radius: 10px;
+  background-color: 5px solid black;
 }
 
 footer {
