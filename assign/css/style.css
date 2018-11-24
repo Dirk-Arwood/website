@@ -80,7 +80,7 @@ input[type=submit]:hover {
   background-color: lightblue;
 }
 
-input[type=focus]:hover {
+input[type=submit]:focus {
   background-color: lightblue;
 }
 
