@@ -80,10 +80,6 @@ input[type=submit]:hover {
   background-color: lightblue;
 }
 
-input[type=submit]:focus {
-  background-color: lightblue;
-}
-
 input[type=text]:focus, input[type=tel]:focus, input[type=email]:focus {
   background-color: lightblue;
   border: 3px solid black;
