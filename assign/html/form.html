@@ -10,6 +10,8 @@
 </head>
 <body>
 
+  <div id="content">
+
     <div class="header">
         <h1>Dirk Gently's Holistic IT Consultancy Agency</h1>
 
@@ -32,17 +34,17 @@
     <br>
 
     <form>
-        <label>First Name:</label><br>
-        <input type="text" name="firstname" placeholder="Your first name..."><br><br>
+        <label for="input-name">First Name:</label><br>
+        <input type="text" name="firstname" placeholder="Your first name..." id="input-name"><br><br>
 
-        <label>Last name:</label><br>
-        <input type="text" name="lastname" placeholder="Your last name..."><br><br>
+        <label for="input-surname">Last name:</label><br>
+        <input type="text" name="lastname" placeholder="Your last name..." id="input-surname"><br><br>
 
-        <label>Telephone number:</label><br>
-        <input type="tel" name="telephonenumber" placeholder="Your telephone number..."><br><br>
+        <label for="input-tel">Telephone number:</label><br>
+        <input type="tel" name="telephonenumber" placeholder="Your telephone number..." id="input-tel"><br><br>
 
-        <label>Email address:</label><br>
-        <input type="email" name="emailaddress" placeholder="Your email address..."><br><br>
+        <label for="input-email">Email address:</label><br>
+        <input type="email" name="emailaddress" placeholder="Your email address..." id="input-email"><br><br>
 
         <label>Select your problem:</label><br><br>
             <select id="pc-problems" name="PC-Problems">
@@ -54,8 +56,8 @@
                 <option value="pc-builds">Complete PC Builds</option>
             </select><br><br>
 
-        Describe your problem:<br>
-        <textarea name="describeyourproblem" rows="15" cols="100"></textarea><br><br>
+        <label for="input-problem">Describe your problem:</label><br>
+        <textarea name="describeyourproblem" rows="15" cols="100" id="input-problem"></textarea><br><br>
 
         Submit:<br>
         <input type="submit" value="Submit quotation" onclick="alert('Thank you for submitting your quotation, someone will contact you shortly')" onclick="">
@@ -65,5 +67,6 @@
         <p>Copyright Ryan Burnell 2018 © All rights reserved</p>
     </footer>
 
+</div>
 </body>
 </html>
