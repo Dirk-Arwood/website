@@ -126,14 +126,6 @@ footer {
   transition-duration: 0.4s;
 }
 
-footer {
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
-  justify-content: left;
-  background-color: #C5CCD2;
-  transition-duration: 0.4s;
-}
-
 footer:hover {
   border-radius: 25px;
 }
