@@ -17,8 +17,8 @@ body {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  margin: 1px;
-  padding: 1px;
+  margin: 2px;
+  padding: 2px;
   text-align: center;
   border-top: 4px solid black;
   border-bottom: 4px solid black;
