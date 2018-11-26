@@ -34,34 +34,64 @@
     <br>
 
     <form>
-        <label for="input-name">First Name:</label><br>
-        <input type="text" name="firstname" placeholder="Your first name..." id="input-name"><br><br>
 
-        <label for="input-surname">Last name:</label><br>
-        <input type="text" name="lastname" placeholder="Your last name..." id="input-surname"><br><br>
+        <div class="input-forename">
 
-        <label for="input-tel">Telephone number:</label><br>
-        <input type="tel" name="telephonenumber" placeholder="Your telephone number..." id="input-tel"><br><br>
+          <label for="input-name"><strong>First Name:</strong></label>
+          <input type="text" name="firstname" placeholder="Your first name..." id="input-name"><br><br>
 
-        <label for="input-email">Email address:</label><br>
-        <input type="email" name="emailaddress" placeholder="Your email address..." id="input-email"><br><br>
+        </div>
 
-        <label>Select your problem:</label><br><br>
-            <select id="pc-problems" name="PC-Problems">
-                <option value="pc-cleaning">PC Cleaning</option>
-                <option value="virus-removal">Virus Removal</option>
-                <option value="parts-replacement">Component Replacement</option>
-                <option value="pc-refurbishment">PC Refurbishment</option>
-                <option value="pc-upgrading">PC Upgrading</option>
-                <option value="pc-builds">Complete PC Builds</option>
-            </select><br><br>
+        <div class="input-surname">
 
-        <label for="input-problem">Describe your problem:</label><br>
-        <textarea name="describeyourproblem" rows="15" cols="100" id="input-problem"></textarea><br><br>
+          <label for="input-surname"><strong>Last name:</strong></label>
+          <input type="text" name="lastname" placeholder="Your last name..." id="input-surname"><br><br>
 
-        Submit:<br>
-        <input type="submit" value="Submit quotation" onclick="alert('Thank you for submitting your quotation, someone will contact you shortly')" onclick="">
-      </form><br>
+        </div>
+
+        <div class="input-tel">
+
+          <label for="input-tel"><strong>Telephone number:</strong></label>
+          <input type="tel" name="telephonenumber" placeholder="Your telephone number..." id="input-tel"><br><br>
+
+        </div>
+
+        <div class="input-email">
+
+          <label for="input-email"><strong>Email address:</strong></label>
+          <input type="email" name="emailaddress" placeholder="Your email address..." id="input-email"><br><br>
+
+        </div>
+
+        <div class="select-problem">
+
+          <label><strong>Select your problem:</strong></label>
+              <select id="pc-problems" name="PC-Problems">
+                  <option value="pc-cleaning">PC Cleaning</option>
+                  <option value="virus-removal">Virus Removal</option>
+                  <option value="parts-replacement">Component Replacement</option>
+                  <option value="pc-refurbishment">PC Refurbishment</option>
+                  <option value="pc-upgrading">PC Upgrading</option>
+                  <option value="pc-builds">Complete PC Builds</option>
+                </select>
+
+        </div>
+
+        <div class="input-problem">
+
+          <label for="input-problem"><strong>Describe your problem:</strong></label>
+          <textarea name="describeyourproblem" rows="15" cols="100" id="input-problem"></textarea>
+
+        </div>
+
+        <div class="submit">
+
+          Submit:
+          <input type="submit" value="Submit quotation" onclick="alert('Thank you for submitting your quotation, someone will contact you shortly')" onclick="">
+
+        </div>
+
+      </form>
 
     <footer>
         <p>Copyright Ryan Burnell 2018 © All rights reserved</p>
