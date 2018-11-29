@@ -1,3 +1,5 @@
-<strong>Look mom, I made a website!</strong>
+<h1><strong>Dirk Gently's Holistic Developers Agency</strong></h1>
 
-Please don't steal this website or I will find you.
+This is the first website assignment of DGHDA, using HTML and CSS
+
+<strong>Copyright Ryan Burnell 2018</strong>
