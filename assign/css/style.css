@@ -143,10 +143,8 @@ footer:hover {
 }
 
 .services {
-  justify-content: left;
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  flex-flow: wrap; 
 }
 
 .services abbr {
