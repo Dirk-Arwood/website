@@ -142,15 +142,6 @@ footer:hover {
   width: 100%;
 }
 
-.services {
-  display: flex;
-  flex-flow: wrap; 
-}
-
-.services abbr {
-  text-decoration: none;
-}
-
 .services-home {
   text-decoration: none;
 }
