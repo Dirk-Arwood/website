@@ -1,102 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Contact Us</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="../css/style.css" />
-    <script src="main.js"></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Contact Us</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="../css/style.css" />
+  <script src="main.js"></script>
 </head>
+
 <body>
 
   <div id="content">
 
     <div class="header">
-        <h1>Dirk Gently's Holistic IT Consultancy Agency</h1>
+      <h1>Dirk Gently's Holistic IT Consultancy Agency</h1>
 
-        <h2><strong>Contact us for a quotation</strong></h2>
+      <h2><strong>Contact us for a quotation</strong></h2>
 
-        <h3>Our opening hours are Monday-Friday 0:900AM to 17:00PM and Saturday-Sunday 0:900AM to 20:00PM</h3>
+      <h3>Our opening hours are Monday-Friday 0:900AM to 17:00PM and Saturday-Sunday 0:900AM to 20:00PM</h3>
 
-        <nav>
-            <ul class="nav-bar">
-                <li class="nav-opts"><a class="button" href="../index.html">Home Page</a></li>
-                <li class="nav-opts"><a class="button" href="../html/text.html">Information</a></li>
-                <li class="nav-opts"><a class="button" href="../html/table.html">Pricings</a></li>
-                <li class="nav-opts"><a class="button-active" href="../html/form.html">Contact Us</a></li>
-                <li class="nav-opts"><a class="button" href="../html/references.html">References</a></li>
-                <li class="nav-opts"><a class="button" href="../html/validation.html">Validations</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul class="nav-bar">
+          <li class="nav-opts"><a class="button" href="../index.html">Home Page</a></li>
+          <li class="nav-opts"><a class="button" href="../html/text.html">Information</a></li>
+          <li class="nav-opts"><a class="button" href="../html/table.html">Pricings</a></li>
+          <li class="nav-opts"><a class="button-active" href="../html/form.html">Contact Us</a></li>
+          <li class="nav-opts"><a class="button" href="../html/references.html">References</a></li>
+          <li class="nav-opts"><a class="button" href="../html/validation.html">Validations</a></li>
+        </ul>
+      </nav>
     </div>
 
     <br>
 
     <form>
 
-        <div id="input-forename">
+      <div id="input-forename">
 
-          <label for="input-name"><strong>First Name:</strong></label>
-          <input type="text" name="firstname" placeholder="Your first name..." id="input-name">
+        <label for="input-name"><strong>First Name:</strong></label>
+        <input type="text" name="firstname" placeholder="Your first name..." id="input-name">
 
-        </div>
+      </div>
 
-        <div id="input-surname">
+      <div id="input-surname">
 
-          <label for="input-surname"><strong>Last name:</strong></label>
-          <input type="text" name="lastname" placeholder="Your last name..." id="input-surname">
+        <label for="input-surname"><strong>Last name:</strong></label>
+        <input type="text" name="lastname" placeholder="Your last name..." id="input-surname">
 
-        </div>
+      </div>
 
-        <div id="input-tel">
+      <div id="input-tel">
 
-          <label for="input-tel"><strong>Telephone number:</strong></label>
-          <input type="tel" name="telephonenumber" placeholder="Your telephone number..." id="input-tel">
+        <label for="input-tel"><strong>Telephone number:</strong></label>
+        <input type="tel" name="telephonenumber" placeholder="Your telephone number..." id="input-tel">
 
-        </div>
+      </div>
 
-        <div id="input-email">
+      <div id="input-email">
 
-          <label for="input-email"><strong>Email address:</strong></label>
-          <input type="email" name="emailaddress" placeholder="Your email address..." id="input-email">
+        <label for="input-email"><strong>Email address:</strong></label>
+        <input type="email" name="emailaddress" placeholder="Your email address..." id="input-email">
 
-        </div>
+      </div>
 
-        <div id="select-problem">
+      <div id="select-problem">
 
-          <label><strong>Select your problem:</strong></label>
-              <select id="pc-problems" name="PC-Problems">
-                  <option value="pc-cleaning">PC Cleaning</option>
-                  <option value="virus-removal">Virus Removal</option>
-                  <option value="parts-replacement">Component Replacement</option>
-                  <option value="pc-refurbishment">PC Refurbishment</option>
-                  <option value="pc-upgrading">PC Upgrading</option>
-                  <option value="pc-builds">Complete PC Builds</option>
-                </select>
+        <label><strong>Select your problem:</strong></label>
+        <select id="pc-problems" name="PC-Problems">
+          <option value="pc-cleaning">PC Cleaning</option>
+          <option value="virus-removal">Virus Removal</option>
+          <option value="parts-replacement">Component Replacement</option>
+          <option value="pc-refurbishment">PC Refurbishment</option>
+          <option value="pc-upgrading">PC Upgrading</option>
+          <option value="pc-builds">Complete PC Builds</option>
+        </select>
 
-        </div>
+      </div>
 
-        <div id="input-problem">
+      <div id="input-problem">
 
-          <label for="input-problem"><strong>Describe your problem:</strong></label>
-          <textarea name="describeyourproblem" rows="15" cols="100" id="input-problem"></textarea>
+        <label for="input-problem"><strong>Describe your problem:</strong></label>
+        <textarea name="describeyourproblem" rows="15" cols="100" id="input-problem"></textarea>
 
-        </div>
+      </div>
 
-        <div id="submit">
+      <div id="submit">
 
-          Submit:
-          <input type="submit" value="Submit quotation" onclick="alert('Thank you for submitting your quotation, someone will contact you shortly')">
+        Submit:
+        <input type="submit" value="Submit quotation" onclick="alert('Thank you for submitting your quotation, someone will contact you shortly')">
 
-        </div>
+      </div>
 
-      </form>
+    </form>
 
     <footer>
-        <p>Copyright Ryan Burnell 2018 © All rights reserved</p>
+      <p>Copyright Ryan Burnell 2018 © All rights reserved</p>
     </footer>
 
   </div>
 </body>
+
 </html>
