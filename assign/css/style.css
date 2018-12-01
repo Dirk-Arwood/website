@@ -192,9 +192,9 @@ footer:hover {
   margin-right: auto;
 }
 
-/* On screens that are 992px or less, set the background color to blue */
 @media screen and (max-width: 600px) {
-  #content {
-    background-color: peachpuff;
+  .nav-opts {
+    display: flex;
+    flex-wrap: wrap;
   }
 }
