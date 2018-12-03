@@ -171,7 +171,6 @@ footer:hover {
 }
 
 .accordion:after {
-  content: "\02796"; /* Unicode character for "minus" sign (+) */
   font-size: 13px;
   color: #777;
   float: right;
@@ -179,7 +178,6 @@ footer:hover {
 }
 
 .active:after {
-  content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
 .services-home {
