@@ -159,6 +159,10 @@ footer:hover {
   text-align: left;
 }
 
+.services h2 {
+  text-decoration: underline;
+}
+
 .services-home {
   text-decoration: none;
 }
