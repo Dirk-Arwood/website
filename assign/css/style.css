@@ -142,6 +142,10 @@ footer:hover {
   width: 100%;
 }
 
+.form {
+  display: block;
+}
+
 .services {
   text-align: left;
 }
